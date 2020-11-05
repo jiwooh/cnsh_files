@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 
-f=open('age.csv')
+f=open('D:\github\cnsh_files\pythonai_camp\day1\\age.csv')
 
 data=csv.reader(f)
 
