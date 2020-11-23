@@ -8,13 +8,15 @@ void s() {
 	while (L<=R) {
 		M=(L+R)/2;
 		if (d[M]==k) {
-			break;
+			printf("%d", M);
+			return;
 		} else if (k>d[M]) {
 			L=M+1;
 		} else {
 			R=M-1;
 		}
 	}
+	printf("Not Found!");
 }
 int main() {
 	scanf("%d", &n);
@@ -23,9 +25,4 @@ int main() {
 	}
 	scanf("%d", &k);
 	s();
-	if (L<=R) {
-		printf("%d", M);
-	} else {
-		printf("Not Found!");
-	}
 }
