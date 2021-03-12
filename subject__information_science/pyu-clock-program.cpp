@@ -3,12 +3,12 @@
 #include <windows.h>
 /*
 忙式式式式式式式式式式式式式式式式式式忖 
-弛 ####  #       ####   ####  #    #  弛
-弛#    # #    o #    # #    # #   #   弛
-弛#      #      #    # #      ####    弛
+弛 ####  #       ####   ####  #    #  弛 
+弛#    # #    o #    # #    # #   #   弛 
+弛#      #      #    # #      ####    弛 
 弛#      #    o #    # #      #  #    弛 
 弛#    # #      #    # #    # #   #   弛 
-弛 ####  ######  ####   ####  #    #  弛
+弛 ####  ######  ####   ####  #    #  弛 
 戌式式式式式式式式式式式式式式式式式式戎 
 */
 void cursor(int n);
@@ -17,7 +17,7 @@ int main() {
 	printf("弛  ####  #       ####   ####  #    # 弛\n弛 #    # #    o #    # #    # #   #  弛\n弛 #      #      #    # #      ####   弛\n弛 #      #    o #    # #      #  #   弛\n弛 #    # #      #    # #    # #   #  弛\n弛  ####  ######  ####   ####  #    # 弛 \n");
 	printf("\n");
 	
-	printf("＝ output types : input the number at the front of each line\n");
+	printf("＝ output types : input the given number\n");
 	
 	printf("  [1] : yyyy-mm-dd hh:mm:ss \n");
 	printf("  [11] : yy-mm-dd hh:mm:ss \n");
@@ -35,7 +35,7 @@ int main() {
 			if (d[i]==type) inv--;
 		}
 		if (inv==0) break;
-		printf("Input the given numbers.\n");
+		printf("Input the given number.\n");
 		scanf("%d", &type);
 	}
 	printf("\n");
