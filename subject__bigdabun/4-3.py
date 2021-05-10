@@ -1,0 +1,6 @@
+x1,y1,x2,y2=map(int,input('두 점을 x y 순서대로 연달아 입력하시오\n').split())
+print(x1,y1,x2,y2)
+rr=0.25*((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2))
+xm=0.5*(x1+x2)
+ym=0.5*(y1+y2)
+print(f'(x-{xm})^2+(y-{ym})^2={rr}')
