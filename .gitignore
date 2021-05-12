@@ -1,2 +1,3 @@
 *.exe
-subject__python_math\.ipynb_checkpoints\*.ipynb
+subject__python_math/.ipynb_checkpoints/*.ipynb
+
