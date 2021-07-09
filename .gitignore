@@ -1,3 +1,2 @@
 *.exe
-*/.ipynb_checkpoints/*.ipynb
-
+*-checkpoint.ipynb
