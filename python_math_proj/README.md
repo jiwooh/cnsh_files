@@ -20,7 +20,8 @@
 + [구글 코랩](https://colab.research.google.com/drive/1ILpNpqAcyGX37u5arm7FSZS-02asLB5R): 아웃풋이 불안정해 추천하지 않음
 
 ### 발표 파일
-+ **presentation.pptx**
++ **newpresentation.pptx**: 발표자료 수정 (0712)
++ ~~presentation.pptx~~
 
 ### 참고 문헌
 + [1. 지도 파일 구해서 편집하기](https://mjs1995.tistory.com/169)
